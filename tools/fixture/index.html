@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lifecycle fixture</title>
+<style>
+  body { font: 14px system-ui, sans-serif; margin: 24px; color: #222; background: #fafaf8; }
+  button { font: inherit; padding: 8px 14px; margin-right: 8px; }
+  .page { border: 1px solid #ccc; padding: 16px; border-radius: 6px; margin-top: 12px; }
+  [hidden] { display: none !important; }
+  pre { font-size: 12px; max-height: 40vh; overflow: auto; background: #fff; border: 1px solid #ddd; padding: 8px; }
+</style>
+</head>
+<body>
+<h1>Lifecycle log fixture (<span id="app-label"></span>)</h1>
+<p>Emulates LOG-CONTRACT.md for <code>tools/capture.mjs</code> self-tests. Use <code>?app=old</code>, <code>?app=new</code> or <code>?app=new-compat</code>.</p>
+<div class="page" id="home">
+  <h2>Home</h2>
+  <button data-test="go-detail" type="button">Go to detail</button>
+</div>
+<div class="page" id="detail" hidden>
+  <h2>Detail</h2>
+  <button data-test="back" type="button">Back</button>
+</div>
+<pre id="out"></pre>
+<script type="module">
+  import { SEQUENCES } from './sequences.mjs';
+
+  const params = new URLSearchParams(location.search);
+  let app = params.get('app') || 'old';
+  if (app === 'new' && params.get('compat') === '1') app = 'new-compat';
+  document.documentElement.dataset.app = app === 'old' ? 'old' : 'new';
+  document.getElementById('app-label').textContent = app;
+  const seq = SEQUENCES[app];
+  if (!seq) throw new Error('unknown app emulation: ' + app);
+
+  const out = document.getElementById('out');
+  // Logger per contract: lazily creates the array (must coexist with capture's init script).
+  function log(page, source, hook, detail) {
+    const w = window;
+    w.__lifecycleLog = w.__lifecycleLog || [];
+    const t = performance.now();
+    const entry = detail === undefined ? { t, page, source, hook } : { t, page, source, hook, detail };
+    w.__lifecycleLog.push(entry);
+    const line = '[LC] +' + t.toFixed(1) + 'ms ' + page + ' ' + source + ' ' + hook + (detail ? ' (' + detail + ')' : '');
+    console.log(line);
+    out.textContent += line + '\n';
+  }
+
+  /** Replay a phase: tiny gaps are emitted synchronously, larger ones via setTimeout. */
+  function replay(entries, done) {
+    let i = 0;
+    const step = () => {
+      while (i < entries.length) {
+        const [gap, page, source, hook, detail] = entries[i];
+        if (gap >= 4 && i > 0) {
+          i_next(gap);
+          return;
+        }
+        i++;
+        log(page, source, hook, detail);
+      }
+      done && done();
+    };
+    const i_next = (gap) => setTimeout(() => {
+      const [, page, source, hook, detail] = entries[i];
+      i++;
+      log(page, source, hook, detail);
+      step();
+    }, Math.min(gap, 350));
+    step();
+  }
+
+  let busy = false;
+  document.querySelector('[data-test=go-detail]').addEventListener('click', () => {
+    if (busy) return; busy = true;
+    replay(seq.forward, () => {
+      document.getElementById('home').hidden = true;
+      document.getElementById('detail').hidden = false;
+      busy = false;
+    });
+    // The detail page becomes visible as soon as it "enters"; keep both reachable.
+    document.getElementById('detail').hidden = false;
+  });
+  document.querySelector('[data-test=back]').addEventListener('click', () => {
+    if (busy) return; busy = true;
+    replay(seq.back, () => {
+      document.getElementById('detail').hidden = true;
+      busy = false;
+    });
+    document.getElementById('home').hidden = false;
+  });
+
+  // Boot sequence starts right away (a little delay emulates bundle evaluation).
+  setTimeout(() => replay(seq.boot), 30);
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "name": "app-old",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Ionic 3.9.5 / Angular 5.0.3 lifecycle-instrumented reference app",
+  "scripts": {
+    "start": "ionic-app-scripts serve --nobrowser --port 8100 --nolivereload --address localhost",
+    "serve": "ionic-app-scripts serve --nobrowser --port 8100 --nolivereload --address localhost",
+    "build": "ionic-app-scripts build"
+  },
+  "dependencies": {
+    "@angular/animations": "5.0.3",
+    "@angular/common": "5.0.3",
+    "@angular/compiler": "5.0.3",
+    "@angular/compiler-cli": "5.0.3",
+    "@angular/core": "5.0.3",
+    "@angular/forms": "5.0.3",
+    "@angular/platform-browser": "5.0.3",
+    "@angular/platform-browser-dynamic": "5.0.3",
+    "ionic-angular": "3.9.5",
+    "ionicons": "3.0.0",
+    "rxjs": "5.5.11",
+    "sw-toolbox": "3.6.0",
+    "zone.js": "0.8.18"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "3.2.4",
+    "sass": "1.77.8",
+    "typescript": "2.4.2"
+  },
+  "overrides": {
+    "node-sass": "npm:sass@1.77.8"
+  },
+  "config": {
+    "ionic_bundler": "webpack",
+    "ionic_sass": "./config/sass.config.js",
+    "ionic_copy": "./config/copy.config.js"
+  }
+}

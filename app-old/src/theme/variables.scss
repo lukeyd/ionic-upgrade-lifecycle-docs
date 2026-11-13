@@ -1,0 +1,23 @@
+// Ionic Variables and Theming (ionic2-app-base defaults).
+//
+// NOTE (app-old build): this file is NOT compiled. node-sass cannot be built
+// on arm64 macOS and Dart Sass cannot parse ionic-angular's theme SCSS, so
+// config/sass.config.js excludes the Ionic theme and the prebuilt
+// node_modules/ionic-angular/css/ionic.css is shipped instead
+// (config/copy.config.js). Kept for parity with a stock Ionic 3 project.
+$font-path: "../assets/fonts";
+
+@import "ionic.globals";
+
+$colors: (
+  primary:    #488aff,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222
+);
+
+@import "ionic.theme.default";
+@import "ionic.ionicons";
+@import "roboto";
+@import "noto-sans";

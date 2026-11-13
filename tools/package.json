@@ -1,0 +1,25 @@
+{
+  "name": "ionic-lifecycle-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Capture and compare Ionic 3 vs Ionic 8 page lifecycle order (see ../LOG-CONTRACT.md)",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "capture:old": "node capture.mjs old",
+    "capture:new": "node capture.mjs new",
+    "capture:new-compat": "node capture.mjs new-compat",
+    "capture:all": "node capture.mjs old && node capture.mjs new && node capture.mjs new-compat",
+    "generate": "node generate.mjs",
+    "generate:sample": "node generate.mjs --sample --captures ../captures --out /tmp/sample-out",
+    "samples": "node make-samples.mjs",
+    "fixture": "node fixture/serve.mjs",
+    "selftest": "node selftest.mjs",
+    "pdf": "node pdf.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

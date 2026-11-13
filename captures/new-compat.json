@@ -1,0 +1,1807 @@
+{
+  "app": "new-compat",
+  "url": "http://localhost:4200/home?compat=1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "capturedAt": "2026-11-13T13:17:13.290Z",
+  "entries": [
+    {
+      "t": 0,
+      "page": "App",
+      "source": "marker",
+      "hook": "PHASE:boot"
+    },
+    {
+      "t": 194,
+      "page": "App",
+      "source": "angular",
+      "hook": "main.ts"
+    },
+    {
+      "t": 198.69999992847443,
+      "page": "App",
+      "source": "angular",
+      "hook": "AppComponent.constructor"
+    },
+    {
+      "t": 201.5,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 202.79999995231628,
+      "page": "App",
+      "source": "router",
+      "hook": "NavigationStart",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 203.79999995231628,
+      "page": "Home",
+      "source": "guard",
+      "hook": "canMatch"
+    },
+    {
+      "t": 204.29999995231628,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 210.09999990463257,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 210.69999992847443,
+      "page": "Home",
+      "source": "guard",
+      "hook": "canMatch",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 211.09999990463257,
+      "page": "App",
+      "source": "router",
+      "hook": "RoutesRecognized",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 211.39999997615814,
+      "page": "App",
+      "source": "router",
+      "hook": "GuardsCheckStart",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 211.79999995231628,
+      "page": "App",
+      "source": "router",
+      "hook": "ActivationStart",
+      "detail": "home"
+    },
+    {
+      "t": 212,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewCanEnter",
+      "detail": "static (no instance exists yet)"
+    },
+    {
+      "t": 212.29999995231628,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewCanEnter"
+    },
+    {
+      "t": 212.5,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 212.89999997615814,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewCanEnter",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 213,
+      "page": "App",
+      "source": "router",
+      "hook": "GuardsCheckEnd",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 213.19999992847443,
+      "page": "App",
+      "source": "router",
+      "hook": "ResolveStart",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 213.5,
+      "page": "Home",
+      "source": "guard",
+      "hook": "resolve"
+    },
+    {
+      "t": 213.59999990463257,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 214.19999992847443,
+      "page": "Home",
+      "source": "guard",
+      "hook": "resolve",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 214.29999995231628,
+      "page": "App",
+      "source": "router",
+      "hook": "ResolveEnd",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 215.19999992847443,
+      "page": "Home",
+      "source": "angular",
+      "hook": "constructor"
+    },
+    {
+      "t": 217.29999995231628,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngOnInit"
+    },
+    {
+      "t": 217.59999990463257,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewWillLoad"
+    },
+    {
+      "t": 217.69999992847443,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 217.89999997615814,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentInit"
+    },
+    {
+      "t": 218,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 218.19999992847443,
+      "page": "Home",
+      "source": "render",
+      "hook": "directive:ngOnInit"
+    },
+    {
+      "t": 218.39999997615814,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 218.59999990463257,
+      "page": "Home",
+      "source": "render",
+      "hook": "directive:ngAfterViewInit"
+    },
+    {
+      "t": 218.79999995231628,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewInit"
+    },
+    {
+      "t": 218.89999997615814,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewDidLoad"
+    },
+    {
+      "t": 219,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 219.29999995231628,
+      "page": "App",
+      "source": "router",
+      "hook": "ActivationEnd",
+      "detail": "home"
+    },
+    {
+      "t": 219.5,
+      "page": "App",
+      "source": "router",
+      "hook": "NavigationEnd",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 219.89999997615814,
+      "page": "App",
+      "source": "ionic-app",
+      "hook": "ionNavWillChange"
+    },
+    {
+      "t": 224.59999990463257,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewWillEnter"
+    },
+    {
+      "t": 224.69999992847443,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewDidEnter"
+    },
+    {
+      "t": 224.79999995231628,
+      "page": "App",
+      "source": "ionic-app",
+      "hook": "ionNavDidChange"
+    },
+    {
+      "t": 225,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 225,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 225.09999990463257,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 225.19999992847443,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 225.19999992847443,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 225.29999995231628,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterNextRender"
+    },
+    {
+      "t": 225.39999997615814,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 225.39999997615814,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 225.5,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 225.59999990463257,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 225.69999992847443,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 225.69999992847443,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 225.79999995231628,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 225.89999997615814,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 225.89999997615814,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 235.69999992847443,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 235.79999995231628,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 235.89999997615814,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 236,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 236.09999990463257,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 236.09999990463257,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 236.19999992847443,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 236.29999995231628,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 236.29999995231628,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 236.39999997615814,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 236.5,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 236.59999990463257,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 236.59999990463257,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 236.69999992847443,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 933.0999999046326,
+      "page": "App",
+      "source": "marker",
+      "hook": "PHASE:forward"
+    },
+    {
+      "t": 973.0999999046326,
+      "page": "Home",
+      "source": "ionic",
+      "hook": "nav.navigateForward"
+    },
+    {
+      "t": 973.3999999761581,
+      "page": "App",
+      "source": "router",
+      "hook": "NavigationStart",
+      "detail": "/detail"
+    },
+    {
+      "t": 974,
+      "page": "Detail",
+      "source": "guard",
+      "hook": "canMatch"
+    },
+    {
+      "t": 985.8999999761581,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 985.8999999761581,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 986,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 986.1999999284744,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 986.1999999284744,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 986.2999999523163,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 986.2999999523163,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 987,
+      "page": "Detail",
+      "source": "guard",
+      "hook": "canMatch",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 987.1999999284744,
+      "page": "App",
+      "source": "router",
+      "hook": "RoutesRecognized",
+      "detail": "/detail"
+    },
+    {
+      "t": 987.3999999761581,
+      "page": "App",
+      "source": "router",
+      "hook": "GuardsCheckStart",
+      "detail": "/detail"
+    },
+    {
+      "t": 987.7999999523163,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewCanLeave"
+    },
+    {
+      "t": 988.0999999046326,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 988.0999999046326,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 988.2999999523163,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 988.2999999523163,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 988.3999999761581,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 988.5,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 988.5,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 988.5999999046326,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewCanLeave",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 988.6999999284744,
+      "page": "App",
+      "source": "router",
+      "hook": "ActivationStart",
+      "detail": "detail"
+    },
+    {
+      "t": 988.8999999761581,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewCanEnter",
+      "detail": "static (no instance exists yet)"
+    },
+    {
+      "t": 989.0999999046326,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewCanEnter"
+    },
+    {
+      "t": 989.2999999523163,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 989.3999999761581,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 989.3999999761581,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 989.5,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 989.5999999046326,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 989.6999999284744,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 989.7999999523163,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 989.7999999523163,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewCanEnter",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 989.8999999761581,
+      "page": "App",
+      "source": "router",
+      "hook": "GuardsCheckEnd",
+      "detail": "/detail"
+    },
+    {
+      "t": 990,
+      "page": "App",
+      "source": "router",
+      "hook": "ResolveStart",
+      "detail": "/detail"
+    },
+    {
+      "t": 990.1999999284744,
+      "page": "Detail",
+      "source": "guard",
+      "hook": "resolve"
+    },
+    {
+      "t": 990.3999999761581,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 990.5,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 990.5,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 990.5,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 990.6999999284744,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 990.6999999284744,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 990.6999999284744,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 990.8999999761581,
+      "page": "Detail",
+      "source": "guard",
+      "hook": "resolve",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 990.8999999761581,
+      "page": "App",
+      "source": "router",
+      "hook": "ResolveEnd",
+      "detail": "/detail"
+    },
+    {
+      "t": 991.3999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "constructor"
+    },
+    {
+      "t": 992.3999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngOnInit"
+    },
+    {
+      "t": 992.5999999046326,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewWillLoad"
+    },
+    {
+      "t": 992.7999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 993,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentInit"
+    },
+    {
+      "t": 993.1999999284744,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 993.3999999761581,
+      "page": "Detail",
+      "source": "render",
+      "hook": "directive:ngOnInit"
+    },
+    {
+      "t": 993.5,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 993.7999999523163,
+      "page": "Detail",
+      "source": "render",
+      "hook": "directive:ngAfterViewInit"
+    },
+    {
+      "t": 993.8999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewInit"
+    },
+    {
+      "t": 994.0999999046326,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewDidLoad"
+    },
+    {
+      "t": 994.2999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 994.5999999046326,
+      "page": "App",
+      "source": "router",
+      "hook": "ActivationEnd",
+      "detail": "detail"
+    },
+    {
+      "t": 994.7999999523163,
+      "page": "App",
+      "source": "router",
+      "hook": "NavigationEnd",
+      "detail": "/detail"
+    },
+    {
+      "t": 995,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 995,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 995.0999999046326,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 995.0999999046326,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 995.2999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 995.2999999523163,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 995.3999999761581,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterNextRender"
+    },
+    {
+      "t": 995.3999999761581,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 995.3999999761581,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 995.5999999046326,
+      "page": "App",
+      "source": "ionic-app",
+      "hook": "ionNavWillChange"
+    },
+    {
+      "t": 995.5999999046326,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 995.6999999284744,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 995.7999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 995.7999999523163,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 995.8999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 996,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 996,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 996,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 1011.3999999761581,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewWillLeave"
+    },
+    {
+      "t": 1011.5,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewWillEnter"
+    },
+    {
+      "t": 1011.7999999523163,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 1011.8999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 1011.8999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 1012.0999999046326,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 1012.0999999046326,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 1012.1999999284744,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 1012.2999999523163,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 1012.2999999523163,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 1302.5,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewDidEnter"
+    },
+    {
+      "t": 1302.6999999284744,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewDidLeave"
+    },
+    {
+      "t": 1303,
+      "page": "App",
+      "source": "ionic-app",
+      "hook": "ionNavDidChange"
+    },
+    {
+      "t": 1304,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 1304,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 1304.2999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 1304.3999999761581,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 1304.5,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 1304.6999999284744,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 1304.7999999523163,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 1304.8999999761581,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 1319,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 1319.0999999046326,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 1319.2999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 1319.5,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 1319.5999999046326,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 1319.6999999284744,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 1319.7999999523163,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 1320,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 1320.1999999284744,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 1320.3999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 1320.5,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 1320.5999999046326,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 1320.7999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 1320.8999999761581,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 1321,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 1321,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 1999,
+      "page": "App",
+      "source": "marker",
+      "hook": "PHASE:back"
+    },
+    {
+      "t": 2022,
+      "page": "Detail",
+      "source": "ionic",
+      "hook": "nav.pop"
+    },
+    {
+      "t": 2022.5999999046326,
+      "page": "App",
+      "source": "router",
+      "hook": "NavigationStart",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 2023.3999999761581,
+      "page": "Home",
+      "source": "guard",
+      "hook": "canMatch"
+    },
+    {
+      "t": 2035.6999999284744,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2035.8999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2036,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2036.1999999284744,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2036.3999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2036.5,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2036.5999999046326,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2036.7999999523163,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2037.6999999284744,
+      "page": "Home",
+      "source": "guard",
+      "hook": "canMatch",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 2038,
+      "page": "App",
+      "source": "router",
+      "hook": "RoutesRecognized",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 2038.2999999523163,
+      "page": "App",
+      "source": "router",
+      "hook": "GuardsCheckStart",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 2038.6999999284744,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewCanLeave"
+    },
+    {
+      "t": 2039.1999999284744,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2039.1999999284744,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2039.3999999761581,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2039.5,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2039.5999999046326,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2039.6999999284744,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2039.7999999523163,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2040,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2040.0999999046326,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewCanLeave",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 2040.1999999284744,
+      "page": "App",
+      "source": "router",
+      "hook": "ActivationStart",
+      "detail": "home"
+    },
+    {
+      "t": 2040.5,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewCanEnter",
+      "detail": "static (no instance exists yet)"
+    },
+    {
+      "t": 2040.6999999284744,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewCanEnter"
+    },
+    {
+      "t": 2041.0999999046326,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2041.0999999046326,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2041.2999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2041.3999999761581,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2041.5,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2041.5999999046326,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2041.6999999284744,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2041.7999999523163,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2041.8999999761581,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewCanEnter",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 2042,
+      "page": "App",
+      "source": "router",
+      "hook": "GuardsCheckEnd",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 2042.1999999284744,
+      "page": "App",
+      "source": "router",
+      "hook": "ResolveStart",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 2042.3999999761581,
+      "page": "Home",
+      "source": "guard",
+      "hook": "resolve"
+    },
+    {
+      "t": 2042.7999999523163,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2042.7999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2043,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2043.0999999046326,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2043.2999999523163,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2043.2999999523163,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2043.3999999761581,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2043.5,
+      "page": "Detail",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2043.6999999284744,
+      "page": "Home",
+      "source": "guard",
+      "hook": "resolve",
+      "detail": "resolved(true)"
+    },
+    {
+      "t": 2043.6999999284744,
+      "page": "App",
+      "source": "router",
+      "hook": "ResolveEnd",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 2044.1999999284744,
+      "page": "App",
+      "source": "router",
+      "hook": "ActivationEnd",
+      "detail": "home"
+    },
+    {
+      "t": 2044.5,
+      "page": "App",
+      "source": "router",
+      "hook": "NavigationEnd",
+      "detail": "/home?compat=1"
+    },
+    {
+      "t": 2044.7999999523163,
+      "page": "App",
+      "source": "ionic-app",
+      "hook": "ionNavWillChange"
+    },
+    {
+      "t": 2044.8999999761581,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2045,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2045.0999999046326,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2045.1999999284744,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2045.1999999284744,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2045.1999999284744,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2045.3999999761581,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2045.3999999761581,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2045.5,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2045.5,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2045.5999999046326,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2045.6999999284744,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2045.7999999523163,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2045.8999999761581,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2046,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2046.0999999046326,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2046.1999999284744,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2046.1999999284744,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2053.399999976158,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewWillLeave"
+    },
+    {
+      "t": 2053.5,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewWillEnter"
+    },
+    {
+      "t": 2053.6999999284744,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2053.7999999523163,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2053.899999976158,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2054,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2054,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2054.0999999046326,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2054.2999999523163,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2054.2999999523163,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2269.5999999046326,
+      "page": "Home",
+      "source": "ionic-compat",
+      "hook": "ionViewDidEnter"
+    },
+    {
+      "t": 2270,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewDidLeave"
+    },
+    {
+      "t": 2270.2999999523163,
+      "page": "App",
+      "source": "ionic-app",
+      "hook": "ionNavDidChange"
+    },
+    {
+      "t": 2272,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2272.2999999523163,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2272.5999999046326,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2272.7999999523163,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2273,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2273.1999999284744,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2273.1999999284744,
+      "page": "Detail",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2273.2999999523163,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2286.6999999284744,
+      "page": "Detail",
+      "source": "angular",
+      "hook": "ngOnDestroy"
+    },
+    {
+      "t": 2286.899999976158,
+      "page": "Detail",
+      "source": "ionic-compat",
+      "hook": "ionViewWillUnload"
+    },
+    {
+      "t": 2286.899999976158,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2287.0999999046326,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2287.1999999284744,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2287.2999999523163,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2287.399999976158,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2287.399999976158,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2287.5,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2287.6999999284744,
+      "page": "App",
+      "source": "cd",
+      "hook": "AppRef.tick"
+    },
+    {
+      "t": 2287.7999999523163,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngDoCheck"
+    },
+    {
+      "t": 2287.899999976158,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterContentChecked"
+    },
+    {
+      "t": 2287.899999976158,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2288,
+      "page": "Home",
+      "source": "angular",
+      "hook": "ngAfterViewChecked"
+    },
+    {
+      "t": 2288.0999999046326,
+      "page": "Home",
+      "source": "render",
+      "hook": "afterEveryRender"
+    },
+    {
+      "t": 2288.0999999046326,
+      "page": "Home",
+      "source": "cd",
+      "hook": "template-evaluated"
+    },
+    {
+      "t": 2936.5999999046326,
+      "page": "App",
+      "source": "marker",
+      "hook": "PHASE:end"
+    }
+  ]
+}

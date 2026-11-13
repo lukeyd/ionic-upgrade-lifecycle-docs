@@ -1,0 +1,9 @@
+node_modules/
+app-old/www/
+app-old/.sourcemaps/
+app-old/serve.log
+app-new/dist/
+app-new/.angular/
+app-new/serve.log
+captures/*.console.txt
+.DS_Store
