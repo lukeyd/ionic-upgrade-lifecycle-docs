@@ -7,3 +7,4 @@ app-new/.angular/
 app-new/serve.log
 captures/*.console.txt
 .DS_Store
+.execmap/
